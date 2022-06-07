@@ -5,6 +5,9 @@ subtitle: "PSM'de Caz ile dünyan değişsin."
 date: 2022-05-16
 author: "Jülide"
 image: "img/psmkonseri.jpeg"
+tags: 
+    - Jülide Özçelik
+categories: [ Caz ]
 ---
 
 # 17 Mayıs, PSM'de Caz

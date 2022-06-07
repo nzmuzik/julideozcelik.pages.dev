@@ -9,22 +9,25 @@ preserveTaxonomyNames = true
 paginate = 5 #frontpage pagination
 hasCJKLanguage = true
 
-#[outputs]
-#home = ["HTML", "RSS", "Algolia"]
+[sitemap]
+  changefreq = "weekly"
+
+[outputs]
+home = ["HTML", "RSS", "Algolia"]
 
 [params]
   header_image = "img/cover1.jpeg"
   SEOTitle = "Offical Website"
-  description = "..."
+  description = "jülide, özçelik, jazz, caz"
   keyword = "jülide, özçelik, jazz, caz"
   slogan = ""
 
   image_404 = "img/404-bg.jpg"
   title_404 = "sayfa bulunamadı."
-  omit_categories = false
+  omit_categories = true
 
   # leancloud storage for page view counter
-  page_view_conter = false 
+  page_view_conter = true 
   leancloud_app_id = ""
   leancloud_app_key = ""
 
