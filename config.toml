@@ -18,7 +18,7 @@ home = ["HTML", "RSS", "Algolia"]
 [params]
   header_image = "img/cover1.jpeg"
   SEOTitle = "Offical Website"
-  description = "jülide, özçelik, jazz, caz"
+  description = "ejülide, özçelik, jazz, caz"
   keyword = "jülide, özçelik, jazz, caz"
   slogan = ""
 
