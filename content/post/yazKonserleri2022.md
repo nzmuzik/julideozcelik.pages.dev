@@ -13,7 +13,7 @@ categories: [ "Caz", "Yaz Konserleri" ]
 
 Jülide Özçelik'in Yaz Konserleri kaldığı yerden devam ediyor. 
 
-PSM'den sonra tadı damanızda kalan sesine yaklaşan yaz konserleriyle devam edebilirsiniz. 
+PSM'den sonra tadı damanızda kalan sesine yaklaşan yaz konserleriyle kavuşuyoruz.
 
 #### 29 Temmuz Aqua Florya AVM Amfi Tiyatro
 
