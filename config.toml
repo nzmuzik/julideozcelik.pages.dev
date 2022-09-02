@@ -17,8 +17,8 @@ home = ["HTML", "RSS", "Algolia"]
 
 [params]
   header_image = "img/cover1.jpeg"
-  SEOTitle = "Offical Website"
-  description = "ejülide, özçelik, jazz, caz"
+  SEOTitle = "Jülide Özçelik - Offical Website"
+  description = "ülide Özçelik (d. 1975, İstanbul), Türk caz sanatçısı. Liseden sonra müzik eğitimine Müjdat Gezen Sanat Merkezi'nin hafif batı müziği bölümünü kazanarak başladı. Mezun olduğu sene İstanbul Bilgi Üniversitesi'nin müzik bölümününe tam burslu olarak girdi."
   keyword = "jülide, özçelik, jazz, caz"
   slogan = ""
 
