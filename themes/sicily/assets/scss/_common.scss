@@ -226,6 +226,20 @@ textarea.form-control {
   max-height: 44px;
 }
 
+@media (max-width: 1024px) {
+  .musicIcon {
+    margin: 1rem;
+    padding: 0.50rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .musicIcon {
+    margin: 1.6rem;
+    padding: 0.50rem;
+  }
+}
+
 .musicIcon-a, .musicIcon-button, .musicIcon-select {
   cursor: pointer;
   transition: .2s ease;
