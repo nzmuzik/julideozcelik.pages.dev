@@ -1,140 +1,90 @@
-baseurl = "/"
-title = "Jülide Özçelik"
-theme = "hugo-theme-cleanwhite"
-languageCode = "tr-tr"
-# Enable comments by entering your Disqus shortname
+baseURL = "/"
 disqusShortname = ""
 googleAnalytics = "G-HBDD1RZBQ0"
-preserveTaxonomyNames = true
-paginate = 5 #frontpage pagination
-hasCJKLanguage = true
+languageCode = "tr"
+languageName = "Tr"
 
-[sitemap]
-  changefreq = "weekly"
-
-[outputs]
-home = ["HTML", "RSS", "Algolia"]
-
+paginate = "10"
+summaryLength = "15"
+theme = "sicily"
+title = "Jülide Özçelik"
+[markup.goldmark.renderer]
+unsafe = true
+[[menu.company]]
+URL = "hakkında"
+name = "Hakkında"
+[[menu.company]]
+URL = "iletişim"
+name = "iletişim"
+[[menu.main]]
+URL = "konserler"
+name = "Konserler"
+weight = 1
+[[menu.main]]
+URL = "hakkında"
+name = "Hakkında"
+weight = 2
+[[menu.product]]
+URL = "konserler"
+name = "Konserler"
 [params]
-  header_image = "img/cover1.jpeg"
-  SEOTitle = "Jülide Özçelik - Offical Website"
-  description = "Jülide Özçelik (d. 1975, İstanbul), Türk caz sanatçısı. Liseden sonra müzik eğitimine Müjdat Gezen Sanat Merkezi'nin hafif batı müziği bölümünü kazanarak başladı. Mezun olduğu sene İstanbul Bilgi Üniversitesi'nin müzik bölümününe tam burslu olarak girdi."
-  keyword = "jülide, özçelik, jazz, caz"
-  slogan = ""
-
-  image_404 = "img/404-bg.jpg"
-  title_404 = "sayfa bulunamadı."
-  omit_categories = true
-
-  # leancloud storage for page view counter
-  page_view_conter = true 
-  leancloud_app_id = ""
-  leancloud_app_key = ""
-
-  # algolia site search
-  algolia_search = false
-  algolia_appId = ""
-  algolia_indexName = ""
-  algolia_apiKey = ""
-
-  # Sidebar settings
-  sidebar_about_description = "Resmi sosyal medya hesapları"
-  #sidebar_avatar = "img/avatar-zhaohuabing.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
-  #sidebar_avatar = "img/profilfoto.jpeg"      # use absolute URL, seeing it's used in both `/` and `/about/`
-
-  featured_tags = false 
-  featured_condition_size = 1 
-
-  # Baidu Analytics
-  ba_track_id = ""
-  
-  # We need a proxy to access Disqus api in China
-  # Follow https://github.com/zhaohuabing/disqus-php-api to set up your own disqus proxy
-  disqus_proxy = ""
-  disqus_site = ""
-
-  # Twikoo comments
-  # Follow https://twikoo.js.org/ to set up your own env_id
-  twikoo_env_id = ""
-
-  #Enable wechat pay & alipay to allow readers send reward money if they like the articles 
-  reward = false 
-  # reward_guide = "如果这篇文章对你有用,请随意打赏" 
-
-  friends = false
-  bookmarks = false
-  about_me = true
-
-  # Include any custom CSS and/or JS files, url or relative to /static folder
-  #custom_css = ["css/lightbox.css", "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css", "css/main.css"]
-  #custom_js = ["js/lightbox.js", "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js", "js/main.js"]
-
-  [params.social]
-  rss              = false 
-  #email           = "mhaktanir@gmail.com"
-  youtube          = "https://www.youtube.com/channel/UCUrZ3-1X8d2kQydL-soXPVw"
-  apple            = "https://music.apple.com/tr/artist/j%C3%BClide-%C3%B6z%C3%A7elik/322513053" 
-  spotify          = "https://open.spotify.com/artist/6pGwxFTe6ONT92Rb7v5wx2?si=mPa93uSCQZW--DfhUPa_rQ"
-  facebook         = "https://tr-tr.facebook.com/ozcelikjulide"
-  #youtube          = "https://www.youtube.com/channel/UCUrZ3-1X8d2kQydL-soXPVw"
-  #googleplus      = "full profile url in googleplus"
-  twitter          = "https://twitter.com/julideozcelik"
-  #linkedin        = "https://www.linkedin.com/in/yourlinkedinid"
-  #stackoverflow   = "https://stackoverflow.com/users/yourstackoverflowid"
-  instagram        = "https://www.instagram.com/julideozcelik/"
-  #github          = "https://github.com/yourgithub"
-  #wechat          = "your wechat qr code image"
-  #medium          = "full profile url in medium"
-  #slack           = "full workspace url in slack"
-  #pinterest       = "full profile url in pinterest"
-  #reddit          = "full profile url in reddit"
-  #gitlab          = "full profile url in gitlab"
-  #mastodon        = "full profile url in mastodon"
-  #keybase         = "full profile url in keybase"
-  #xing            = "https://www.xing.com/profile/yourxingid"
-  #git             = "full profile url for git user"
-  
-  
-  #[[params.friend_link]]
-  #title = "Linda的博客"
-  #href =  "https://zhaozhihan.com"
-
-  #[[params.bookmark_link]]
-  #title =  "Martin Fowler"
-  #href =  "https://martinfowler.com"
-  #[[params.bookmark_link]]
-  #title = "ServiceMesher"
-  #href =  "http://www.servicemesher.com"
-  #[[params.bookmark_link]]
-  #title =  "Pxhere"
-  #href = "https://pxhere.com"
-  #[[params.bookmark_link]]
-  #title = "unsplash"
-  #href = "https://unsplash.com"
-  
-  [[params.addtional_menus]]
-  title =  "Albümler"
-  href =  "/top/books/"
-  #[[params.addtional_menus]]
-  #title =  "Duyurular"
-  #href =  "/top/archive/"
-  [[params.addtional_menus]]
-  title =  "Hakkında"
-  href =  "/top/about/"
-
-[outputFormats.Algolia]
-baseName = "algolia"
-isPlainText = true
-mediaType = "application/json"
-notAlternative = true
-
-[params.algolia]
-vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
-params = ["categories", "tags"] 
-
-[markup]
-  [markup.tableOfContents]
-    endLevel = 2
-    startLevel = 1
-  [markup.highlight]
-    style = "dracula"
+author = "Jülide Özçelik"
+contact_form_action = "https://formspree.io/f/mgeqoadv"
+description = "Jülide Özçelik (d. 1975, İstanbul), Türk caz sanatçısı. Liseden sonra müzik eğitimine Müjdat Gezen Sanat Merkezi'nin hafif batı müziği bölümünü kazanarak başladı. Mezun olduğu sene İstanbul Bilgi Üniversitesi'nin müzik bölümününe tam burslu olarak girdi."
+logo = "images/logo.png"
+logo_width = "200px"
+[params.company]
+address = ""
+city = "İstanbul"
+country = "Türkiye"
+email = ""
+phone = ""
+[params.navigation_button]
+enable = true
+label = "İletişim"
+link = "iletişim"
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/custom/clean-footer.css"
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[params.preloader]
+enable = true
+preloader = "julideOzcelik3.jpeg"
+#[[params.footer]]
+#rol_email = "pedropiedras@sicily.com"
+#rol_name = "Creative Director"
+#rol_representative = "Pedro Pidras"
+#[[params.footer]]
+#rol_email = "juanrisas@sicily.com"
+#rol_name = "Chief executive officer"
+#rol_representative = "Juan Risas"
+#[[params.footer]]
+#rol_email = "mateojosedulfo@Sicily.com"
+#rol_name = "Bussines Director"
+#rol_representative = "Mateo Josedulfo"
+[[params.social]]
+icon = "ti-facebook"
+link = "https://tr-tr.facebook.com/ozcelikjulide"
+title = "facebook"
+[[params.social]]
+icon = "ti-twitter-alt"
+link = "https://twitter.com/julideozcelik"
+title = "twitter"
+[[params.social]]
+icon = "ti-youtube"
+link = "https://www.youtube.com/channel/UCUrZ3-1X8d2kQydL-soXPVw"
+title = "youtube"
+[[params.social]]
+icon = "ti-instagram"
+link = "https://www.instagram.com/julideozcelik/"
+title = "instagram"

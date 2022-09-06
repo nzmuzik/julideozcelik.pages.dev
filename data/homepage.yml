@@ -1,0 +1,100 @@
+####################### Banner #########################
+banner:
+  title : "Kısaca"
+  description: "Liseden sonra müzik eğitimine Müjdat Gezen Sanat Merkezi’nin hafif batı müziği bölümünü kazanarak başladı. Mezun olduğu sene İstanbul Bilgi Üniversitesi’nin müzik bölümününe tam burslu olarak girdi. Burada vokal performans bölümünde Nükhet Ruacan ile vokal teknikleri üzerine çalıştı. Selen Gülün, Randy Esen, İmer Demirer, Donovan Mixon, Ayşe Özbekligil, Raci Pişmişoğlu, Ricky Ford, Can Kozlu gibi eğitmenlerden ensamble, armoni, solfej dersleri alarak mezun oldu. Türkçe sözlü caz yapma fikriyle birtakım projeler oluşturdu ve performanslar gerçekleştirdi. Bu arada Klasik Türk müziği koro çalışmalarına katıldı ve konserlerde solist olarak bulundu. TRT Hafif Batı Müziği ve Caz Orkestrası ile canlı kayıtlar aldı. Akıcı ve duru bir sesi olan Özçelik, albüm yapma fikrini Cem Tuncer’le paylaşarak, albümünün ön hazırlıklarına başladı. Cem Tuncer, Erbil Doğan, Kağan Yıldız, Ediz Hafızoğlu ve Genco Arı ile beraber 2008 Ocak ayında İlk albümü olan Jazz İstanbul Volume 1′i çıkardı[1]. Birçok değişik etkinlikte yer aldı. Aynı zamanda İstanbul 12 Orkestrası’nda da solist olarak yer almaktadır."
+  image : "julideOzcelik.jpeg"
+
+##################### Social ##########################
+description:
+  content : "Resmi sosyal medya hesaplarımızdan Jülide Özçelik'i takip edebilisiniz."
+
+bannerTwo:
+  title : "Konserler - 2022"
+  description: ""
+  image : "julideOzcelik1.png"
+  concert_items:
+    - concert: "Yaz Konseri 1"
+      date: "29 Temmuz 2022"
+      location: "Aqua Florya AVM"
+    - concert: "Yaz Konseri 2"
+      date: "21 Ağustos 2022"
+      location: "Nadas Kaz Dağları"
+    - concert: "Yaz Konseri 3"
+      date: "03 Eylül 2022"
+      location: "Cinati Caz Fest - Foça"
+    
+
+bannerThree:
+  title : "müzik"
+  description: "Dijital platformlarda dinleyebilirsiniz."
+  image : "julideOzcelik1.png"
+  music_source:
+    - source_name: "Apple Music"
+      source_image: "/musicPlatforms/appleMusicLogo.png" 
+      source_link: "https://music.apple.com/tr/artist/j%C3%BClide-%C3%B6z%C3%A7elik/322513053"
+    - source_name: "Spotify"
+      source_image: "/musicPlatforms/spotify.png"
+      source_link: "https://open.spotify.com/artist/6pGwxFTe6ONT92Rb7v5wx2?si=MvInFKyhQhiXJwuGXhTK9A"
+    - source_name: "Tidal"
+      source_image: "/musicPlatforms/tidal1.png"
+      source_link: "https://tidal.com/browse/artist/6452464"
+    - source_name: "YouTube"
+      source_image: "/musicPlatforms/youtube2.png"
+      source_link:  "https://www.youtube.com/channel/UCUrZ3-1X8d2kQydL-soXPVw"
+
+bannerFour:
+  title : "albümler"
+  description: "Birbirinden güzel tonların ve ritmin bir araya geldiği Jülide Özçelik albümleri."
+  album_items:
+    - album_name: "Jazz İstanbul, Volume I"
+      album_cover: "/albumCovers/jazzIstanbulVolume1.jpeg"
+      apple_link: "https://music.apple.com/tr/album/jazz-istanbul-vol-1/1492345387"
+      spotify_link: "https://open.spotify.com/album/7Ah0MZCh0VLunMjyoXSJkc?si=nh5Qo7HBTm6ldvODAApCag"
+      youtube_link: "https://www.youtube.com/watch?v=cNA7HsMnRSg&list=OLAK5uy_llpbt9QT-Wu7qsU6Q9WmsiYAngfWiij6c"
+      tidal_link: "https://tidal.com/browse/album/126099946"
+      published_date: "3 Ocak 2008"
+      apple: "Apple Music"
+      appleIcon: "/musicIcons/appleIcon.png" 
+      spotify: "Spotify"
+      spotifyIcon: "/musicIcons/spotifyIcon.png" 
+      tidal: "Tidal"
+      tidalIcon: "/musicIcons/tidalIcon.png" 
+      youtube: "YouTube"
+      youtubeIcon: "/musicIcons/youtubeIcon.png"
+    - album_name: "Jazz İstanbul, Volume II"
+      album_cover: "/albumCovers/jazzIstanbulVolume2.jpeg"
+      apple_link: "https://music.apple.com/tr/album/jazz-istanbul-vol-2/1500057906"
+      spotify_link: "https://open.spotify.com/album/41bBnMJ4x2WczVJXXNjeDw?si=pQLipPcZSNeM8lC8QH7PQQ"
+      youtube_link: "https://www.youtube.com/watch?v=1n0kHmr-T04&list=OLAK5uy_mOIw23dV4oNieHbn-2-iAIjZHgvLz3sOw"
+      tidal_link: "https://tidal.com/browse/album/132368329"
+      published_date: "11 Ağutos 2011"
+      apple: "Apple Music"
+      appleIcon: "/musicIcons/appleIcon.png" 
+      spotify: "Spotify"
+      spotifyIcon: "/musicIcons/spotifyIcon.png" 
+      tidal: "Tidal"
+      tidalIcon: "/musicIcons/tidalIcon.png" 
+      youtube: "YouTube"
+      youtubeIcon: "/musicIcons/youtubeIcon.png"
+    - album_name: "Nefes"
+      album_cover: "/albumCovers/nefes.jpeg"
+      apple_link: "https://music.apple.com/tr/album/nefes/1448472234"
+      spotify_link: "https://open.spotify.com/album/1Xn3LfRlqM8NFAFeH8DfLr?si=EFUM_5CZTUyiH42wqruLnA"
+      youtube_link: "https://www.youtube.com/watch?v=whEWuucgQS4&list=OLAK5uy_l1caFqPsBvXNYocVOfiokfK4nFTiN0WdY"
+      tidal_link: "https://tidal.com/browse/album/101887885"
+      published_date: "25 Ocak 2019"
+      apple: "Apple Music"
+      appleIcon: "/musicIcons/appleIcon.png" 
+      spotify: "Spotify"
+      spotifyIcon: "/musicIcons/spotifyIcon.png" 
+      tidal: "Tidal"
+      tidalIcon: "/musicIcons/tidalIcon.png" 
+      youtube: "YouTube"
+      youtubeIcon: "/musicIcons/youtubeIcon.png"
+  
+      
+
+##################### Error 404 #####################
+error404:
+  image : "images/404.png"
+  copyright : "404 Not Found by Jennifer Suplee"
