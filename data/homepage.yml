@@ -13,15 +13,15 @@ bannerTwo:
   description: ""
   image : "julideOzcelik1.png"
   concert_items:
-    - concert: "Yaz Konseri 1"
-      date: "29 Temmuz 2022"
-      location: "Aqua Florya AVM"
-    - concert: "Yaz Konseri 2"
-      date: "21 Ağustos 2022"
-      location: "Nadas Kaz Dağları"
     - concert: "Yaz Konseri 3"
       date: "03 Eylül 2022"
       location: "Cinati Caz Fest - Foça"
+    - concert: "Parkta Caz"
+      date: "17 Eylül 2022"
+      location: "Hayatpark - Konyaaltıs"
+    - concert: "Beşiktaş Festivali"
+      date: "21 Eylül 2022"
+      location: "Beşiktaş - İstanbul"
     
 
 bannerThree:
