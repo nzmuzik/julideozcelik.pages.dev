@@ -23,6 +23,3 @@ PSM konseriden sonra tadı damanızda kalan sesine yaklaşan yaz konserleriyle k
 
 
 #### 03 Eylül Cinati Caz Fest - Foça
-
-
-Bilet bilgileri yakında paylaşılacaktır.

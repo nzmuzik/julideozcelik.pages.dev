@@ -4,7 +4,7 @@ date: 2020-04-18T10:07:21+06:00
 # post image
 image: "julideOzcelik-konser-kascazfestivali.jpeg"
 # post type (regular/featured)
-type: "featured"
+type: "regular"
 # meta description
 description: ""
 # post draft
