@@ -75,16 +75,16 @@ preloader = "julideOzcelik3.jpeg"
 [[params.social]]
 icon = "ti-facebook"
 link = "https://tr-tr.facebook.com/ozcelikjulide"
-title = "facebook"
+title = "FACEBOOK"
 [[params.social]]
 icon = "ti-twitter-alt"
 link = "https://twitter.com/julideozcelik"
-title = "twitter"
+title = "TWITTER"
 [[params.social]]
 icon = "ti-youtube"
 link = "https://www.youtube.com/channel/UCUrZ3-1X8d2kQydL-soXPVw"
-title = "youtube"
+title = "YOUTUBE"
 [[params.social]]
 icon = "ti-instagram"
 link = "https://www.instagram.com/julideozcelik/"
-title = "instagram"
+title = "INSTAGRAM"
