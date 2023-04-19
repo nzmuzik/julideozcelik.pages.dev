@@ -58,7 +58,7 @@ link = "plugins/bootstrap/bootstrap.min.js"
 [[params.plugins.js]]
 link = "plugins/slick/slick.min.js"
 [params.preloader]
-enable = true
+enable = false
 preloader = "julideOzcelik3.jpeg"
 #[[params.footer]]
 #rol_email = "pedropiedras@sicily.com"
