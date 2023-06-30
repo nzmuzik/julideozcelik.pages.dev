@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://julideozcelik.com.tr"
 disqusShortname = ""
 googleAnalytics = "G-HBDD1RZBQ0"
 languageCode = "tr"
@@ -8,6 +8,14 @@ paginate = "10"
 summaryLength = "15"
 theme = "sicily"
 title = "Jülide Özçelik"
+
+#### Sitemap
+[sitemap]
+  changefreq = 'monthly'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.company]]
