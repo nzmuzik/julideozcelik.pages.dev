@@ -1,5 +1,5 @@
 ---
-title: "Kardeş Türküler - Kıyıda Featç Jülide Özçelik"
+title: "Kardeş Türküler - Kıyıda Feat. Jülide Özçelik"
 url: "/konserler/kardes-turkuler-kiyida-feat-julide-ozcelik"
 date: 2020-07-05T23:07:21+06:00
 # post image
