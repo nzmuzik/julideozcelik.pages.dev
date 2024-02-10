@@ -1,5 +1,5 @@
 ---
-title: "Sevgililer Günü Özel Konseri Mersin DOB | Jülide Özçelik"
+title: "Sevgililer Günü Özel Konseri Mersin DOB | Jülide Özçelik - Gitarda Cenk Tuncer"
 url: "/konserler/sevgililer-gunu-ozel-konseri-mersin-dob-julide-ozcelik"
 date: 2024-02-09T23:07:21+06:00
 # post image
@@ -13,7 +13,7 @@ draft: false
 ---
 
 
-Sevgiler gününe özel bu konserde Jülide Özçelik sevenleriyle 14 Şubat 2024 Çarşamba günü Mersin'de buluşuyor.
+Sevgiler gününe özel bu konserde Gitarda Cenk Tuncer ve Jülide Özçelik sevenleriyle 14 Şubat 2024 Çarşamba günü Mersin'de buluşuyor.
 
 Mersin - Mersin Opera Büyük Sahne
 
