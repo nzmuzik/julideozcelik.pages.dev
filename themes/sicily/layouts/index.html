@@ -73,7 +73,7 @@
                             {{ range .concert_items -}}
                                 <ul class="list-unstyled mb-10">
                                     <li class="mb-10">
-                                        <span class="concert"><i class="ti-info-alt icon-color-black">  {{ .concert }}</i></span>
+                                        <span class="concert"><i class="ti-info-alt icon-color-black"><a href="{{.link }}" target="_blank"> {{ .concert }}</a></i></span>
                                         <span class="date"><i class="ti-calendar icon-color-black">  {{ .date }}</i></span>
                                         <span class="location"><i class="ti-location-arrow icon-color-black">  {{ .location }}</i></span>
                                         <hr>

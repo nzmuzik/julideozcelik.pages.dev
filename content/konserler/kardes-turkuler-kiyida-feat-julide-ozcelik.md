@@ -1,26 +1,22 @@
 ---
-title: "Kardeş Türküler - Kıyıda Feat. Jülide Özçelik"
-url: "/konserler/kardes-turkuler-kiyida-feat-julide-ozcelik"
-date: 2020-07-05T23:07:21+06:00
+title: "Sevgililer Günü Özel Konseri Mersin DOB | Jülide Özçelik"
+url: "/konserler/sevgililer-gunu-ozel-konseri-mersin-dob-julide-ozcelik"
+date: 2024-02-09T23:07:21+06:00
 # post image
-image: "kardes-turkuler-julide-ozcelik.jpeg"
+image: "sevgililer-gunu-konseri-julide-ozcelik.jpg"
 # post type (regular/featured)
 type: "featured"
 # meta description
-description: "Jülide Özçelik konser - Kardeş Türküler Konseri"
+description: "Sevgililer Günü Özel Konseri Mersin DOB | Jülide Özçelik"
 # post draft
 draft: false
 ---
 
 
-30'uncu yılını kutlayan Kardeş Türküler projesi,insan hikayelerini şarkılarla buluşturduğu 'Kıyıda' projesinde Jülide Özçelik'i konuk ediyor.
-Ve bu konsere 40. yılını kutlayan Enka Sanat ev sahipliği yapıyor!
+Sevgiler gününe özel bu konserde Jülide Özçelik sevenleriyle 14 Şubat 2024 Çarşamba günü Mersin'de buluşuyor.
 
-1 Ağustos Salı
-Saat:21:15
+Mersin - Mersin Opera Büyük Sahne
 
-Biletler biletix ve Enka Sanat gişelerinde.
+Kültür Mahallesi Cumhuriyet Alanı Eski, Mersin Kültür Merkezi, 33010 İçel Merkez/Mersin
 
-### [**BiletX konser Biletleri**](https://www.biletix.com/etkinlik/2FJ18/TURKIYE/tr) **bilet satın al!**
-
-### [**Enka Sanat Biletleri**](https://www.enkasanat.org/etkinlik/kardes-turkuler/) **bilet satın al!**
+### [**Biletini Al**](https://biletinial.com/tr-tr/opera-bale/sevgililer-gunu-ozel-konseri-mersin-dob)
