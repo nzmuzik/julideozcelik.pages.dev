@@ -5,7 +5,7 @@ date: 2024-02-09T23:07:21+06:00
 # post image
 image: "sevgililer-gunu-konseri-julide-ozcelik.jpg"
 # post type (regular/featured)
-type: "featured"
+type: "regular"
 # meta description
 description: "Sevgililer Günü Özel Konseri Mersin DOB | Jülide Özçelik"
 # post draft
