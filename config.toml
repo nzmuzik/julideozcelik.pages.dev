@@ -41,6 +41,7 @@ contact_form_action = "https://formspree.io/f/mgeqoadv"
 description = "Jülide Özçelik, Türkiye'nin önde gelen caz vokalistlerinden biridir. İstanbul'da doğan sanatçı, caz müziği eğitmenliği ve sahne çalışmalarıyla bilinir. Bu websitesinde, Jülide Özçelik'in kariyeri hakkında detaylı bilgi edinebilir, konser takvimini inceleyebilir, albümlerini dinleyebilir ve kendisiyle iletişime geçebilirsiniz. Ayrıca caz müziği sevenler için öneriler ve etkinlik duyuruları da yer almaktadır"
 logo = "images/logo.png"
 logo_width = "200px"
+favicon = "/images/favicon.png"
 [params.company]
 address = ""
 city = "İstanbul"
