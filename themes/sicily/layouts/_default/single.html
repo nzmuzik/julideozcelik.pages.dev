@@ -10,13 +10,6 @@
         <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="img-fluid w-100 rounded mb-4">
         <h2 class="mb-4">{{ .Title }}</h2>
         <div class="content">{{.Content}}</div>
-        
-        <!-- comments -->
-        {{ if site.DisqusShortname }}
-        <div class="mt-5">
-          {{ template "_internal/disqus.html" . }}
-        </div>
-        {{ end }}
       </div>
     </div>
   </div>
