@@ -21,7 +21,7 @@ unsafe = true
 URL = "hakkında"
 name = "Hakkında"
 [[menu.company]]
-URL = "iletişim"
+URL = "iletisim"
 name = "iletişim"
 [[menu.main]]
 URL = "konserler"
@@ -51,7 +51,7 @@ phone = ""
 [params.navigation_button]
 enable = true
 label = "İletişim"
-link = "iletişim"
+link = "iletisim"
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
