@@ -21,18 +21,18 @@ unsafe = true
 URL = "hakkında"
 name = "Hakkında"
 [[menu.company]]
-URL = "iletisim"
+URL = "/iletisim/"
 name = "iletişim"
 [[menu.main]]
-URL = "konserler"
+URL = "/konserler/"
 name = "Konserler"
 weight = 1
 [[menu.main]]
-URL = "hakkında"
+URL = "/hakkimda/"
 name = "Hakkında"
 weight = 2
 [[menu.product]]
-URL = "konserler"
+URL = "/konserler/"
 name = "Konserler"
 [params]
 author = "Jülide Özçelik"
@@ -69,18 +69,6 @@ link = "plugins/slick/slick.min.js"
 [params.preloader]
 enable = false
 preloader = "julideOzcelik3.jpeg"
-#[[params.footer]]
-#rol_email = "pedropiedras@sicily.com"
-#rol_name = "Creative Director"
-#rol_representative = "Pedro Pidras"
-#[[params.footer]]
-#rol_email = "juanrisas@sicily.com"
-#rol_name = "Chief executive officer"
-#rol_representative = "Juan Risas"
-#[[params.footer]]
-#rol_email = "mateojosedulfo@Sicily.com"
-#rol_name = "Bussines Director"
-#rol_representative = "Mateo Josedulfo"
 [[params.social]]
 icon = "ti-facebook"
 link = "https://tr-tr.facebook.com/ozcelikjulide"

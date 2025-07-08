@@ -1,5 +1,6 @@
 ---
 title: "Hakkında"
+url: "/hakkimda/"
 subtitle: ""
 # meta description
 description: "Jülide Özçelik Hakkında Kısa Bilgi"
