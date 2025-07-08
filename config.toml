@@ -18,7 +18,7 @@ title = "Jülide Özçelik | Resmi Web Sitesi- Nefes - Jazz İstanbul - Jazz Mü
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.company]]
-URL = "hakkında"
+URL = "/hakkinda/"
 name = "Hakkında"
 [[menu.company]]
 URL = "/iletisim/"
@@ -28,7 +28,7 @@ URL = "/konserler/"
 name = "Konserler"
 weight = 1
 [[menu.main]]
-URL = "/hakkimda/"
+URL = "/hakkinda/"
 name = "Hakkında"
 weight = 2
 [[menu.product]]
