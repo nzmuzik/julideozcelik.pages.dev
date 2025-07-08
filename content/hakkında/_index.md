@@ -6,7 +6,7 @@ description: "Jülide Özçelik Hakkında Kısa Bilgi"
 draft: false
 ---
 
-Jülide (d. 1975, İstanbul), Türk caz sanatçısı.
+Jülide (d. 1975, İstanbul), Müzisyen.
 
 Liseden sonra müzik eğitimine Müjdat Gezen Sanat Merkezi’nin hafif batı müziği bölümünü kazanarak başladı. Mezun olduğu sene İstanbul Bilgi Üniversitesi’nin müzik bölümününe tam burslu olarak girdi. Burada vokal performans bölümünde Nükhet Ruacan ile vokal teknikleri üzerine çalıştı. Selen Gülün, Randy Esen, İmer Demirer, Donovan Mixon , Ayşe Özbekligil, Raci Pişmişoğlu, Ricky Ford, Can Kozlu gibi eğitmenlerden ensamble, armoni, solfej dersleri alarak mezun oldu. Türkçe sözlü caz yapma fikriyle birtakım projeler oluşturdu ve performanslar gerçekleştirdi. Bu arada Klasik Türk müziği koro çalışmalarına katıldı ve konserlerde solist olarak bulundu. TRT Hafif Batı Müziği ve Caz Orkestrası ile canlı kayıtlar aldı.
 
