@@ -11,7 +11,7 @@ Jülide (d. 1975, İstanbul), Müzisyen.
 
 Liseden sonra müzik eğitimine Müjdat Gezen Sanat Merkezi’nin hafif batı müziği bölümünü kazanarak başladı. Mezun olduğu sene İstanbul Bilgi Üniversitesi’nin müzik bölümününe tam burslu olarak girdi. Burada vokal performans bölümünde Nükhet Ruacan ile vokal teknikleri üzerine çalıştı. Selen Gülün, Randy Esen, İmer Demirer, Donovan Mixon , Ayşe Özbekligil, Raci Pişmişoğlu, Ricky Ford, Can Kozlu gibi eğitmenlerden ensamble, armoni, solfej dersleri alarak mezun oldu. Türkçe sözlü caz yapma fikriyle birtakım projeler oluşturdu ve performanslar gerçekleştirdi. Bu arada Klasik Türk müziği koro çalışmalarına katıldı ve konserlerde solist olarak bulundu. TRT Hafif Batı Müziği ve Caz Orkestrası ile canlı kayıtlar aldı.
 
-Akıcı ve duru bir sesi olan Jülide Özçelik, Anadolu topraklarına ait bir hissiyatla  ilk albümü olan Jazz İstanbul Volume 1’i,Cem Tuncer’in aranjörlüğünde 2008 yılında çıkarttı.İlk albümde Cem Tuncer,Kağan Yıldız,Ediz Hafızoğlu ve Genco Arı müzisyen olarak yer aldı.2011 yılında ikinci albümü Jazz İstanbul Volume 2 ve 2019’da da 3. Albümü olan ‘Nefes’ yayımlandı.
+Jülide Özçelik, Anadolu topraklarına ait bir hissiyatla  ilk albümü olan Jazz İstanbul Volume 1’i,Cem Tuncer’in aranjörlüğünde 2008 yılında çıkarttı.İlk albümde Cem Tuncer,Kağan Yıldız,Ediz Hafızoğlu ve Genco Arı müzisyen olarak yer aldı.2011 yılında ikinci albümü Jazz İstanbul Volume 2 ve 2019’da da 3. Albümü olan ‘Nefes’ yayımlandı.
 
 TRT Caz orkestrası ile Caz standartları kayıtları,TRT radyolarında yayımlanmıştır.
 
