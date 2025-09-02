@@ -176,6 +176,8 @@ textarea.form-control {
   }
 }
 
+// Legacy music styles - now handled in _homepage.scss
+// Keeping these for backward compatibility
 .concert {
   display: flex;
   padding: 1rem;
@@ -208,15 +210,6 @@ textarea.form-control {
   background-color: #fff;  
   max-width: 150px;
   max-height: 150px;
-}
-
-.albumCovers {
-  padding: 1rem;
-  margin: 1rem;
-  background-color: #fff;
-  box-shadow: 10px 10px 10px rgb(0, 0, 0);
-  max-width: 300px;
-  max-height: 300px;
 }
 
 .musicIcon {

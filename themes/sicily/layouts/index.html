@@ -2,23 +2,22 @@
 
 <!-- Banner -->
 {{ with site.Data.homepage.banner }}
-<div class="mt-5">
+<div class="mt-5 banner-section">
     <div class="container vh-50">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="row">
-                    <div class="col pt-5 pb-5" style="padding-top: 0rem!important;">
-                        <h1 class="pt-5" style="font-weight: bold;">{{.title}}</h1>
-                        <p style="text-align: justify;">{{ .description }}</p>
-                      </div>
+        <div class="row align-items-center min-vh-75">
+            <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
+                <div class="banner-content animate-fade-in">
+                    <h1 class="display-4 fw-bold text-gradient mb-4">{{.title}}</h1>
+                    <p class="lead text-muted lh-base">{{ .description }}</p>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="row">
-                    <div class="col">
-                        <img data-toggle="tooltip" data-bs-tooltip="" data-placement="bottom" class="img-fluid"
-                              src="{{ .image | absURL }}" title="{{.image}}">
-                    </div>
+            <div class="col-lg-6 col-md-12">
+                <div class="banner-image-container">
+                    <img data-toggle="tooltip" data-bs-tooltip="" data-placement="bottom" 
+                         class="img-fluid rounded shadow-lg banner-image animate-slide-in"
+                         src="{{ .image | absURL }}" 
+                         title="{{.image}}"
+                         alt="Banner Image">
                 </div>
             </div>
         </div>
@@ -26,61 +25,71 @@
 </div>
 {{end}}
 
-
 <!-- Social -->
-<div class="vh-20 mt-5">
+<div class="social-section py-5">
   <div class="container">
-      <div class="row">
-          <div class="col-md-6 vh-20 d-none d-sm-block">
-              <div class="row">
+      <div class="row align-items-center">
+          <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
+              <div class="description-content animate-fade-in">
               {{ with site.Data.homepage.description }}
-                  <div class="col">
-                      <p class="text-justify">
-                        {{.content}}
-                      </p>
-                  </div>
+                  <p class="lead text-muted lh-base">
+                    {{.content}}
+                  </p>
               {{end}}
               </div>
           </div>
-          <div class="col-md-6">
-            {{ range site.Params.social}}
-              <a href="{{.link}}" target="_blank">
-                  <h3 class="text-uppercase social-media-link">{{.title}}</h3>
-              </a>
-            {{end}}
+          <div class="col-lg-6 col-md-12">
+            <div class="social-links">
+              {{ range site.Params.social}}
+                <a href="{{.link}}" target="_blank" class="social-link animate-bounce-in">
+                    <h3 class="h4 text-uppercase social-media-link">{{.title}}</h3>
+                </a>
+              {{end}}
+            </div>
           </div>
       </div>
   </div>
 </div>
 
 {{ with site.Data.homepage.bannerTwo }}
-<div class="mt-5">
-    <div class="container vh-50">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="row">
-                    <div class="col-lg-10">
-                        <img data-toggle="tooltip" data-bs-tooltip="" data-placement="bottom" class="img-fluid"
-                              src="{{ .image | absURL }}" title="{{.image}}">
-                    </div>
-                </div> 
-            </div>
-            <div class="col-md-6">
-                <div class="row">
-                    <div class="col pt-5 pb-5" style="padding-top: 0rem!important;">
-                        <h1 class="pt-5" style="font-weight: bold;text-align: center;">Jülide Özçelik</h1>
-                        <div class="vh-20 mt-5">
-                            {{ range .concert_items -}}
-                                <ul class="list-unstyled mb-10">
-                                    <li class="mb-10">
-                                        <span class="concert"><i class="ti-info-alt icon-color-black"><a href="{{.link }}" target="_blank"> {{ .concert }}</a></i></span>
-                                        <span class="date"><i class="ti-calendar icon-color-black">  {{ .date }}</i></span>
-                                        <span class="location"><i class="ti-location-arrow icon-color-black">  {{ .location }}</i></span>
-                                        <hr>
-                                    </li>
-                                </ul>                  
-                            {{- end }}
-                        </div>
+<div class="concert-section py-5">
+    <div class="container">
+        <div class="row align-items-center min-vh-75">
+            <div class="col-lg-6 col-md-12 mb-4 mb-lg-0 order-2 order-lg-1">
+                <div class="concert-image-container">
+                    <img data-toggle="tooltip" data-bs-tooltip="" data-placement="bottom" 
+                         class="img-fluid rounded shadow-lg concert-image animate-slide-in"
+                         src="{{ .image | absURL }}" 
+                         title="{{.image}}"
+                         alt="Concert Image">
+                </div>
+            </div> 
+            <div class="col-lg-6 col-md-12 order-1 order-lg-2">
+                <div class="concert-content animate-fade-in">
+                    <h1 class="display-5 fw-bold text-center mb-5 text-gradient">{{.title | markdownify}}</h1>
+                    <div class="concert-list">
+                        {{ range .concert_items -}}
+                            <div class="concert-item mb-4 animate-slide-up">
+                                <div class="concert-card p-3 rounded shadow-sm">
+                                    <div class="concert-info">
+                                        <div class="concert-title mb-2">
+                                            <i class="ti-info-alt icon-color-black me-2"></i>
+                                            <a href="{{.link }}" target="_blank" class="text-decoration-none fw-semibold">{{ .concert }}</a>
+                                        </div>
+                                        <div class="concert-details d-flex flex-wrap gap-3 text-muted">
+                                            <span class="concert-date">
+                                                <i class="ti-calendar icon-color-black me-1"></i>
+                                                {{ .date }}
+                                            </span>
+                                            <span class="concert-location">
+                                                <i class="ti-location-arrow icon-color-black me-1"></i>
+                                                {{ .location }}
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                  
+                        {{- end }}
                     </div>
                 </div>
             </div>
@@ -90,54 +99,79 @@
 {{end}}
 
 {{ with site.Data.homepage.bannerThree }}
-<div class="mt-5">
-    <div class="container vh-50">
-        <div class="row">
-            <div class="col pt-5 pb-5" style="padding-top: 4rem!important;">
-                <h1 class="pt-5" style="font-weight: bold;text-align: center;">{{.title}}</h1>
-                <p style="text-align: center;">{{ .description }}</p>
-                <div class="vh-20 mt-5" style="text-align: center;">
-                    {{ range .music_source -}}
-                        <a href="{{ .source_link }}" target="_blank">
-                            <img class="musicSourceImage" src="{{ .source_image | absURL }}" alt="">
-                        </a>               
-                    {{- end }}
+<div class="music-platforms-section py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-12 text-center">
+                <div class="platforms-content animate-fade-in">
+                    <h1 class="display-5 fw-bold mb-4 text-gradient">{{.title}}</h1>
+                    <p class="lead text-muted mb-5">{{ .description }}</p>
+                    <div class="platforms-grid">
+                        {{ range .music_source -}}
+                            <a href="{{ .source_link }}" target="_blank" class="platform-link animate-scale-in">
+                                <img class="musicSourceImage platform-icon" 
+                                     src="{{ .source_image | absURL }}" 
+                                     alt="Music Platform">
+                            </a>               
+                        {{- end }}
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
 {{end}}
+
 {{ with site.Data.homepage.bannerFour }}
-<div class="mt-5">
-    <div class="container vh-50">
-        <div class="row">
-            <div class="col pt-5 pb-5" style="padding-top: 0rem!important;">
-                <h1 class="pt-5" style="font-weight: bold;text-align: center;">{{.title}}</h1>
-                <p style="text-align: center;">{{ .description }}</p>
-                <div class="vh-20 mt-10" style="text-align: center;">
-                    <br>
-                    {{ range .album_items -}}
-                        <img class="albumCovers" src="{{ .album_cover | absURL }}" alt="{{ .album_name | absURL }}">
-                        <a href="{{ .apple_link | absURL }}" target="_blank">
-                            <img class="musicIcon" src="{{ .appleIcon | absURL }}" alt="{{ .album_name | absURL }}">
-                        </a>
-                        <a href="{{ .spotify_link | absURL }}" target="_blank">
-                            <img class="musicIcon" src="{{ .spotifyIcon | absURL }}" alt="{{ .album_name | absURL }}">
-                        </a>
-                        <a href="{{ .youtube_link | absURL }}" target="_blank">
-                            <img class="musicIcon" src="{{ .youtubeIcon | absURL }}" alt="{{ .album_name | absURL }}">
-                        </a>
-                        <a href="{{ .tidal_link | absURL }}" target="_blank">
-                            <img class="musicIcon" src="{{ .tidalIcon | absURL }}" alt="{{ .album_name | absURL }}">
-                        </a>
-                    {{- end }}
+<div class="albums-section py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-12 col-lg-12 col-md-12 text-center">
+                <div class="albums-content animate-fade-in">
+                    <h1 class="display-5 fw-bold mb-4 text-gradient">{{.title}}</h1>
+                    <p class="lead text-muted mb-5">{{ .description }}</p>
+                    <div class="albums-grid mb-5">
+                        {{ range .album_items -}}
+                            <div class="album-item mb-5 animate-slide-up">
+                                <div class="album-card p-4">
+                                    <div class="album-cover-container mb-3">
+                                        <img class="albumCovers " 
+                                             src="{{ .album_cover | absURL }}" 
+                                             alt="{{ .album_name }}">
+                                    </div>
+                                    <div class="platform-links d-flex justify-content-center gap-3 flex-wrap">
+                                        <a href="{{ .apple_link | absURL }}" target="_blank" class="platform-link animate-bounce-in">
+                                            <img class="musicIcon platform-icon" 
+                                                 src="{{ .appleIcon | absURL }}" 
+                                                 alt="Apple Music">
+                                        </a>
+                                        <a href="{{ .spotify_link | absURL }}" target="_blank" class="platform-link animate-bounce-in">
+                                            <img class="musicIcon platform-icon" 
+                                                 src="{{ .spotifyIcon | absURL }}" 
+                                                 alt="Spotify">
+                                        </a>
+                                        <a href="{{ .youtube_link | absURL }}" target="_blank" class="platform-link animate-bounce-in">
+                                            <img class="musicIcon platform-icon" 
+                                                 src="{{ .youtubeIcon | absURL }}" 
+                                                 alt="YouTube">
+                                        </a>
+                                        <a href="{{ .tidal_link | absURL }}" target="_blank" class="platform-link animate-bounce-in">
+                                            <img class="musicIcon platform-icon" 
+                                                 src="{{ .tidalIcon | absURL }}" 
+                                                 alt="Tidal">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        {{- end }}
+                    </div>
                 </div>
-               
             </div>
         </div>
     </div>
 </div>
 {{end}}
+
+
 
 {{ end }}

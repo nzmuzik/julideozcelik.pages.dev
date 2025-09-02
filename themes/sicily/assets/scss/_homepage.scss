@@ -1,0 +1,442 @@
+/* Homepage Styles */
+
+// Homepage Variables - Tema renklerini kullan
+$gradient-primary: $primary-color;
+$gradient-secondary: darken($primary-color, 15%);
+$text-muted: lighten($text-color, 30%);
+$card-border: $border-color;
+$shadow-light: rgba(0,0,0,0.175);
+$shadow-medium: rgba(0,0,0,0.2);
+
+// Enhanced Typography
+.text-gradient {
+  background: linear-gradient(135deg, $gradient-primary 0%, $gradient-secondary 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.display-4, .display-5 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.lead {
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+// Responsive Improvements
+@media (max-width: 768px) {
+  .min-vh-75 {
+    min-height: 60vh !important;
+  }
+  
+  .display-4 {
+    font-size: 2.5rem;
+  }
+  
+  .display-5 {
+    font-size: 2rem;
+  }
+}
+
+// Enhanced Shadows and Cards
+.shadow-lg {
+  box-shadow: 0 1rem 3rem $shadow-light !important;
+}
+
+.album-card, .concert-card {
+  transition: all 0.3s ease;
+ // border: 1px solid $card-border;
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 1.5rem 4rem $shadow-medium !important;
+  }
+}
+
+// Platform Icons
+.platform-icon {
+  transition: all 0.3s ease;
+  filter: grayscale(100%);
+}
+
+.platform-link {
+  &:hover .platform-icon {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+  }
+}
+
+.musicSourceImage {
+  max-width: 120px;
+  height: auto;
+  padding: 0.25rem;
+  margin: 0.5rem;
+  background-color: transparent;
+}
+
+.albumCovers {
+  max-width: 200px;
+  height: auto;
+}
+
+// Social Media Links
+.social-link {
+  transition: all 0.3s ease;
+  text-decoration: none;
+  
+  &:hover {
+    transform: translateX(10px);
+  }
+}
+
+.social-media-link {
+  color: $text-muted;
+  transition: color 0.3s ease;
+}
+
+.social-link:hover .social-media-link {
+  color: $gradient-primary;
+}
+
+// Animations
+.animate-fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.animate-slide-in {
+  animation: slideIn 1s ease-out;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.8s ease-out;
+}
+
+.animate-bounce-in {
+  animation: bounceIn 0.8s ease-out;
+}
+
+.animate-scale-in {
+  animation: scaleIn 0.6s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from { 
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to { 
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideUp {
+  from { 
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to { 
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounceIn {
+  0% { 
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  50% { 
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  70% { 
+    transform: scale(0.9);
+  }
+  100% { 
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes scaleIn {
+  from { 
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to { 
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+// Grid Layouts
+.platforms-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); // Grid boyutu artırıldı
+  gap: 1.5rem; // Gap azaltıldı
+  max-width: 700px; // Max width artırıldı
+  margin: 0 auto;
+  justify-items: center; // İkonları ortala
+  align-items: center;
+}
+
+.albums-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+  }
+  
+  @media (max-width: 576px) {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}
+
+// Album card styling improvements
+.album-item {
+  .album-card {
+    background: $body-color;
+    //border: 1px solid $card-border;
+    border-radius: 1rem;
+    padding: 2rem;
+    transition: all 0.3s ease;
+    
+    &:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 2rem 5rem $shadow-medium !important;
+    }
+    
+    .album-cover-container {
+      text-align: center;
+      margin-bottom: 2rem;
+      
+      .albumCovers {
+        max-width: 250px;
+        height: auto;
+        border-radius: 0.75rem;
+        box-shadow: 0 0.5rem 1.5rem $shadow-light;
+        transition: transform 0.3s ease;
+        
+        &:hover {
+          transform: scale(1.02);
+        }
+      }
+    }
+    
+    .platform-links {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      padding: 1rem 0;
+      
+      @media (max-width: 576px) {
+        gap: 1.25rem;
+      }
+      
+      .platform-link {
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        &:hover {
+          transform: scale(1.15);
+        }
+        
+        .musicIcon {
+          max-width: 50px;
+          height: auto;
+          padding: 0.5rem;
+          border-radius: 0.5rem;
+          background: rgba(255, 255, 255, 0.05);
+          transition: all 0.3s ease;
+          
+          &:hover {
+            background: rgba(255, 255, 255, 0.1);
+            filter: brightness(1.1);
+          }
+        }
+      }
+    }
+  }
+}
+
+// Enhanced Spacing
+.banner-section, .social-section, .concert-section, 
+.music-platforms-section, .albums-section {
+  padding: 4rem 0;
+  
+  @media (max-width: 768px) {
+    padding: 2rem 0;
+  }
+}
+
+// Concert Items Styling
+.concert-item {
+  transition: all 0.3s ease;
+  
+  &:hover {
+    transform: translateX(10px);
+  }
+}
+
+.concert-title {
+  a {
+    color: $text-color;
+    transition: color 0.3s ease;
+    
+    &:hover {
+      color: $gradient-primary;
+    }
+  }
+}
+
+.concert-details {
+  font-size: 0.9rem;
+  color: $text-muted;
+}
+
+// Banner Image Enhancements
+.banner-image-container, .concert-image-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.banner-image, .concert-image {
+  transition: transform 0.3s ease;
+  
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+// Section-specific styles
+.banner-section {
+  .banner-content {
+    padding: 2rem 0;
+  }
+}
+
+.social-section {
+  .description-content {
+    padding-right: 2rem;
+    
+    @media (max-width: 768px) {
+      padding-right: 0;
+      margin-bottom: 2rem;
+    }
+  }
+  
+  .social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+.concert-section {
+  .concert-content {
+    padding: 2rem 0;
+  }
+  
+  .concert-list {
+    // Scroll kaldırıldı - mevcut alana sığacak şekilde düzenlendi
+    overflow: visible;
+    
+    // Konser kartları arasındaki boşluk azaltıldı
+    .concert-item {
+      margin-bottom: 1rem;
+      
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    
+    // Kart padding'i azaltıldı
+    .concert-card {
+      padding: 1rem !important;
+    }
+  }
+}
+
+.music-platforms-section {
+  .platforms-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
+
+.albums-section {
+  .albums-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+// Utility classes
+.min-vh-75 {
+  min-height: 75vh;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.fw-semibold {
+  font-weight: 600;
+}
+
+// Enhanced responsive utilities
+@media (max-width: 768px) {
+  .platforms-grid {
+    grid-template-columns: repeat(3, 1fr); // 3 sütun
+    gap: 1rem;
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 576px) {
+  .platforms-grid {
+    grid-template-columns: repeat(2, 1fr); // 2 sütun
+    gap: 1rem;
+    max-width: 400px;
+  }
+  
+  .albums-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .concert-card {
+    padding: 0.75rem !important;
+  }
+  
+  .album-card {
+    padding: 1.5rem !important;
+  }
+  
+  // Mobilde platform ikonları daha küçük
+  .musicSourceImage {
+    max-width: 100px;
+    padding: 0.15rem;
+    margin: 0.25rem;
+  }
+}
